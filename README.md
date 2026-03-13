@@ -1,14 +1,16 @@
-# openai-lab
+# nohlee-llm-workbench
 
-Small, standalone runner for experimenting with the OpenAI API (OpenAI models only), logging results to JSON, and viewing them with a simple local UI.
+Small, standalone runner for experimenting with LLM APIs, logging results to JSON, and viewing them with a simple local UI.
+
+Currently supported provider: OpenAI (OpenAI models only).
 
 Maintained by Jeonghun Noh (Nohlee Tech inc.).
 
-![openai-lab banner](assets/github-banner.png)
+![nohlee-llm-workbench banner](assets/github-banner.jpg)
 
 ## Roadmap
-This project is currently focused on OpenAI models.
-We plan to extend it to support additional LLM providers in future releases.
+This project currently supports OpenAI only.
+We plan to expand support to additional LLM providers in future releases.
 
 ## Docs
 - Docs index: [docs/index.md](docs/index.md)
@@ -44,7 +46,7 @@ uv --version
 uv sync
 ```
 
-Run all commands below from the repository root (`openai_lab`).
+Run all commands below from the repository root (`nohlee-llm-workbench`).
 
 Optional: create a local `.env` file from `.envexample` and set your key there.
 ```bash
